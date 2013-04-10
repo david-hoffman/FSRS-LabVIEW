@@ -39,7 +39,6 @@ _**NOTE:** This VI is specific to the Nanomotion II and will need to be replaced
 ###Winspec.vi
 Collects and displays Raman gain spectra and individual probe spectra continuously until the user presses the stop button. The shot-to-shot stability is measured showing a histogram of the means of each individual Raman gain spectra.
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/david-hoffman/FSRS-LabVIEW/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 [![githalytics.com alpha](https://cruel-carlota.pagodabox.com/21304a2785cadd7b2eac4cfb5d873d7d "githalytics.com")](http://githalytics.com/david-hoffman/FSRS-LabVIEW)
 
 
