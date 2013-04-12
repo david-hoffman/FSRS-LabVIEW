@@ -10,7 +10,8 @@ This is the main "driver" program, it will call and display subVI's that perform
 _**NOTE:** The `DataGrabber2.vi` and the `MoveNano.vi` will need to be rewritten for the particular camera and delay stage used in the instrument._
 
 ###daq_scan_sub3.vi
-This program, which can be called from the main program (`FSRSv1.vi`) will read in data from the lock-in amplifier. This is useful to measure the instrument response function and transient absorption. The user can select a starting time, an initial time step, a doubling time and an ending time. The time steps are calculated by `DAQTimes.vi`.
+This program, which can be called from the main program (`FSRSv1.vi`) 
+will read in data from the lock-in amplifier. This is useful to measure the instrument response function and transient absorption. The user can select a starting time, an initial time step, a doubling time and an ending time. The time steps are calculated by `DAQTimes.vi`.
 
 _**NOTE:** the `SR810_Read.vi` will need to be rewritten for the particular lock-in amplifier used._
 
@@ -51,6 +52,5 @@ outputs a string variable that shows the amount of time left for the
 ###Winspec.vi
 Collects and displays Raman gain spectra and individual probe spectra continuously until the user presses the stop button. The shot-to-shot stability is measured showing a histogram of the means of each individual Raman gain spectra.
 
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/david-hoffman/FSRS-LabVIEW/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 [![githalytics.com alpha](https://cruel-carlota.pagodabox.com/21304a2785cadd7b2eac4cfb5d873d7d "githalytics.com")](http://githalytics.com/david-hoffman/FSRS-LabVIEW)
-
-
