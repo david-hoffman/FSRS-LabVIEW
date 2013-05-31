@@ -2,12 +2,12 @@
 
 The license for the code contained in this repository is contained in the included `license.txt` file.
 
-Contained in this repository are [LabVIEW](www.ni.com/labview/) VI's designed to run a femtosecond stimulated Raman instrument ([DOI:10.1039/c2cp23468h](http://dx.doi.org/10.1039/c2cp23468h) and [10.1021/jp400369b](http://dx.doi.org/10.1021/jp400369b)).
+Contained in this repository are [LabVIEW](www.ni.com/labview/) VI's designed to run a femtosecond stimulated Raman (FSRS) instrument, relevant publications can be found [here](http://scholar.google.com/citations?user=HGG__poAAAAJ&hl=en).
 
 ##FSRSv1.vi
 This is the main "driver" program, it will call and display subVI's that perform certain tasks, such as the `daq_scan_sub3.vi` which will read in data from the lock-in amplifier (SR810). In addition, this program will run the main FSRS experiment, it will save a data file for each time delay and ground state acquisition, in each file there will be the calculated Raman gain spectrum (this is calculated on a shot-to-shot basis), the Raman pump on probe spectrum and the Raman pump off spectrum.
 
-_**NOTE:** The `DataGrabber2.vi` and the `MoveNano.vi` will need to be rewritten for the particular camera and delay stage used in the instrument._
+_**NOTE:** The `DataGrabber2.vi` and the `MoveNano.vi` will need to be rewritten for the specific camera and delay stage used in the instrument._
 
 ###daq_scan_sub3.vi
 This program, which can be called from the main program (`FSRSv1.vi`) 
