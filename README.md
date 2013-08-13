@@ -54,3 +54,7 @@ Collects and displays Raman gain spectra and individual probe spectra continuous
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/david-hoffman/FSRS-LabVIEW/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 [![githalytics.com alpha](https://cruel-carlota.pagodabox.com/21304a2785cadd7b2eac4cfb5d873d7d "githalytics.com")](http://githalytics.com/david-hoffman/FSRS-LabVIEW)
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/david-hoffman/FSRS-LabVIEW/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
