@@ -52,7 +52,7 @@ outputs a string variable that shows the amount of time left for the
 ###Winspec.vi
 Collects and displays Raman gain spectra and individual probe spectra continuously until the user presses the stop button. The shot-to-shot stability is measured showing a histogram of the means of each individual Raman gain spectra.
 
-[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/21304a2785cadd7b2eac4cfb5d873d7d "githalytics.com")](http://githalytics.com/david-hoffman/FSRS-LabVIEW)
+[![Analytics](https://ga-beacon.appspot.com/UA-40008601-2/FSRS-LabVIEW/readme)](https://github.com/igrigorik/ga-beacon)
 
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/david-hoffman/FSRS-LabVIEW/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
