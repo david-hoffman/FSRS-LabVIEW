@@ -34,6 +34,14 @@ This VI corrects an error in `ExSubCloseFileImage.vi` provided by [R
 Cubed](http://www.rcubedsw.com/) the providers of the LabVIEW drivers 
 for the PIXIS camera.
 
+###ExSubCreateFileDisplayMultImageDPH.vi
+A modified version of a VI provided by [R 
+Cubed](http://www.rcubedsw.com/). Necessary to run `DataGrabber2.vi`.
+
+###ExSubNframeColMultiImageFastDPH.vi
+A modified version of a VI provided by [R 
+Cubed](http://www.rcubedsw.com/). Necessary to run `DataGrabber2.vi`.
+
 ###GainCalculator.vi
 Calculates the Raman gain based on two cursors placed on the displayed Raman gain curve.
 
